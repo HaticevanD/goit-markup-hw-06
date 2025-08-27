@@ -859,8 +859,10 @@ textarea {
 @media (min-width: 1158px) {
   .header {
     width: 72px;
+    display: flex;
   }
   .header-address ul {
+    padding-left: 140px;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -1025,6 +1027,8 @@ textarea {
   }
 }
 @media (min-width: 768px) and (max-width: 1158px) {
+  .header-address ul {
+  }
   .section-1 ul h3 {
     display: flex;
     justify-content: flex-start;
